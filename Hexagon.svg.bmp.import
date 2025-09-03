@@ -1,0 +1,16 @@
+[remap]
+
+importer="bitmap"
+type="BitMap"
+uid="uid://dgmqjr28hmapl"
+path="res://.godot/imported/Hexagon.svg.bmp-a230ef346fdccba71f5a5ed11c5736a7.res"
+
+[deps]
+
+source_file="res://Hexagon.svg.bmp"
+dest_files=["res://.godot/imported/Hexagon.svg.bmp-a230ef346fdccba71f5a5ed11c5736a7.res"]
+
+[params]
+
+create_from=0
+threshold=0.5

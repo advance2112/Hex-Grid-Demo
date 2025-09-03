@@ -7,3 +7,4 @@ var color: Color = Color.WHITE
 
 func _ready() -> void:
 	icon.modulate = color
+"res://Hexagon.svg.bmp"
