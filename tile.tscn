@@ -3,9 +3,7 @@
 [ext_resource type="Script" uid="uid://daa1jo14i8ntb" path="res://tile.gd" id="1_n3f48"]
 [ext_resource type="Texture2D" uid="uid://c31j1prq62dm0" path="res://Hexagon.svg.png" id="2_vx4y2"]
 [ext_resource type="BitMap" uid="uid://dgmqjr28hmapl" path="res://Hexagon.svg.bmp" id="3_a2t34"]
-
-[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_tfor0"]
-size = Vector2(1024, 886)
+[ext_resource type="Texture2D" uid="uid://dc4uu54bnjfic" path="res://PinkHexagon.png" id="3_tfor0"]
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_n3f48")
@@ -21,5 +19,5 @@ offset_right = 512.0
 offset_bottom = 443.0
 pivot_offset = Vector2(512, 443)
 texture_normal = ExtResource("2_vx4y2")
-texture_hover = SubResource("PlaceholderTexture2D_tfor0")
+texture_hover = ExtResource("3_tfor0")
 texture_click_mask = ExtResource("3_a2t34")

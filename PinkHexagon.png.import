@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c31j1prq62dm0"
-path="res://.godot/imported/Hexagon.svg.png-5ecd6b5ed6fb28909cd502b1034bba58.ctex"
+uid="uid://dc4uu54bnjfic"
+path="res://.godot/imported/PinkHexagon.png-c75db3761966aa9c1e1a0150c8676da9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Hexagon.svg.png"
-dest_files=["res://.godot/imported/Hexagon.svg.png-5ecd6b5ed6fb28909cd502b1034bba58.ctex"]
+source_file="res://PinkHexagon.png"
+dest_files=["res://.godot/imported/PinkHexagon.png-c75db3761966aa9c1e1a0150c8676da9.ctex"]
 
 [params]
 

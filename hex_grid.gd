@@ -1,6 +1,6 @@
 extends Node2D
 
-@export var grid_size: Vector2i = Vector2i(10,10)
+@export var grid_size: Vector2i = Vector2i(200,200)
 
 var tiles: Array[Array] = []
 
@@ -14,7 +14,8 @@ func _ready() -> void:
 			tiles[i].append(tile)
 			tile.position = MathUtils.get_hex_tile_position(j, i)
 			add_child(tile)
-			print(str(i, ",", j, ":", tile.position))
+			#print(str(i, ",", j, ":", tile.position))
+	print(str(get_child_count()*3))
 	
 
 func random_color() -> Color:

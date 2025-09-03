@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://kikv6601dcix"]
+[gd_scene load_steps=4 format=3 uid="uid://kikv6601dcix"]
 
 [ext_resource type="PackedScene" uid="uid://cjmdcfchh36gh" path="res://player.tscn" id="1_0xm2m"]
 [ext_resource type="PackedScene" uid="uid://c6mpdfgt5umk0" path="res://hex_grid.tscn" id="2_h2yge"]
+[ext_resource type="PackedScene" uid="uid://cggqb75a8w8r" path="res://addons/debug_menu/debug_menu.tscn" id="3_h2yge"]
 
 [node name="Node2D" type="Node2D"]
 
@@ -9,3 +10,5 @@
 motion_mode = 1
 
 [node name="Node2D" parent="." instance=ExtResource("2_h2yge")]
+
+[node name="CanvasLayer" parent="." instance=ExtResource("3_h2yge")]
