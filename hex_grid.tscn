@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://c6mpdfgt5umk0"]
+
+[ext_resource type="Script" uid="uid://bqdgf3gx7c2ir" path="res://hex_grid.gd" id="1_kpu3p"]
+
+[node name="Node2D" type="Node2D"]
+scale = Vector2(0.1, 0.1)
+script = ExtResource("1_kpu3p")
