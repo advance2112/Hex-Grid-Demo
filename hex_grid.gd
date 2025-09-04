@@ -12,10 +12,10 @@ func _ready() -> void:
 			var tile: Tile = Prefabs.TILE.instantiate()
 			tile.color = random_color()
 			tiles[i].append(tile)
-			tile.position = MathUtils.get_hex_tile_position(j, i)
+			#tile.position = MathUtils.get_hex_tile_position(i, j)
 			add_child(tile)
 			#print(str(i, ",", j, ":", tile.position))
-	print(str(get_child_count()*3))
+	print(str(get_child_count()))
 	
 
 func random_color() -> Color:

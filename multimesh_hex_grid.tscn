@@ -1,0 +1,21 @@
+[gd_scene load_steps=5 format=3 uid="uid://cxel2e0oxfm25"]
+
+[ext_resource type="Script" uid="uid://b772tqqjklyvn" path="res://multimesh_hex_grid.gd" id="1_8lku5"]
+[ext_resource type="Texture2D" uid="uid://c31j1prq62dm0" path="res://Hexagon.svg.png" id="2_j1cf4"]
+
+[sub_resource type="QuadMesh" id="QuadMesh_8lku5"]
+resource_local_to_scene = true
+size = Vector2(1024, -886)
+
+[sub_resource type="MultiMesh" id="MultiMesh_j1cf4"]
+resource_local_to_scene = true
+use_colors = true
+use_custom_data = true
+mesh = SubResource("QuadMesh_8lku5")
+
+[node name="MultimeshHexGrid" type="Node2D"]
+script = ExtResource("1_8lku5")
+
+[node name="MultiMeshInstance2D" type="MultiMeshInstance2D" parent="."]
+multimesh = SubResource("MultiMesh_j1cf4")
+texture = ExtResource("2_j1cf4")
