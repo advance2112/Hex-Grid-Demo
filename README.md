@@ -24,6 +24,12 @@ Oh yeah also the console will spit out information when you load a chunk or clic
 
 ---
 
+Assets used:
+
+Hexagon.svg.png (public domain): https://commons.wikimedia.org/wiki/File:Hexagon.svg
+
+---
+
 MIT License
 
 Copyright (c) 2025 Mark West
