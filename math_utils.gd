@@ -21,6 +21,7 @@ func get_chunk_of_tile(hex: Vector2i) -> Vector2i:
 func get_chunk_of_position(pos: Vector2) -> Vector2i:
 	return get_chunk_of_tile(get_position_tile_hex(pos))
 
+#pretty much verbatim from https://www.redblobgames.com/grids/hexagons/#rounding
 func round_axial(frac: Vector2) -> Vector2i:
 	var q = roundf(frac.x)
 	var r = roundf(frac.y)
